@@ -1,0 +1,151 @@
+{
+  "repository": "nestjs/mapped-types",
+  "url": "https://github.com/nestjs/mapped-types.git",
+  "commit": "611b4c2f09d8d48ca7a53f9a782445bbba878374",
+  "source_sha256": null,
+  "working_tree_dirty": null,
+  "source_error": null,
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742",
+  "tools": [
+    {
+      "tool": "codeql",
+      "status": "failed",
+      "version": null,
+      "duration_seconds": 0.00804259099822957,
+      "artifacts": [],
+      "error": "El usuario de Compose no puede leer /opt/icc610/.tools/codeql/qlpacks/codeql/actions-queries/0.6.28/.codeql/precompiled/aa8e4fc31dus716gb9uvvoc1720.bytes.qlx",
+      "warnings": [],
+      "data": {}
+    },
+    {
+      "tool": "syft",
+      "status": "success",
+      "version": "1.52.0",
+      "duration_seconds": 1.008031375000428,
+      "artifacts": [
+        "raw/044/syft-c4_xl2ma/sbom.cdx.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "component_count": 2,
+        "components": [
+          {
+            "bom-ref": "pkg:npm/%40nestjs/mapped-types@12.0.0?package-id=51e4433da267217b",
+            "type": "library",
+            "name": "@nestjs/mapped-types",
+            "version": "12.0.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@nestjs\\/mapped-types:\\@nestjs\\/mapped-types:12.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40nestjs/mapped-types@12.0.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@nestjs\\/mapped-types:\\@nestjs\\/mapped_types:12.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@nestjs\\/mapped_types:\\@nestjs\\/mapped-types:12.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@nestjs\\/mapped_types:\\@nestjs\\/mapped_types:12.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@nestjs\\/mapped:\\@nestjs\\/mapped-types:12.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@nestjs\\/mapped:\\@nestjs\\/mapped_types:12.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "fd71c2238fc07657",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-044-opxqcm4s/source/package-lock.json",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "45b6fc63ff0875e0c2e7be86f0ef199591c182cc"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "3b1e92aa7f3fa7f71df0201d397f459a593a984cbb24795fbae27dc0629f9fd2"
+              }
+            ]
+          }
+        ],
+        "missing_versions": 1,
+        "sbom_sha256": "51f8cb4f712d773b71eecb94c7e66d3d2f8c34cddbe383595bd38627883518b5",
+        "exclusions": [
+          "**/.git/**",
+          "**/.venv/**",
+          "**/venv/**",
+          "**/.tools/**",
+          "**/__pycache__/**",
+          "**/runs/**",
+          "**/.cache/**"
+        ]
+      }
+    },
+    {
+      "tool": "grype",
+      "status": "success_empty",
+      "version": "0.119.0",
+      "duration_seconds": 2.0332715900003677,
+      "artifacts": [
+        "raw/044/grype-w8ek5f0p/vulnerabilities.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "findings": [],
+        "database": {
+          "schemaVersion": "v6.1.10",
+          "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+          "built": "2026-10-08T06:33:47Z",
+          "path": "/workspace/.cache/grype/6/vulnerability.db",
+          "valid": true
+        },
+        "component_count": 2,
+        "sbom_sha256": "51f8cb4f712d773b71eecb94c7e66d3d2f8c34cddbe383595bd38627883518b5"
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "raw/044/syft-c4_xl2ma/sbom.cdx.json": "51f8cb4f712d773b71eecb94c7e66d3d2f8c34cddbe383595bd38627883518b5",
+    "raw/044/grype-w8ek5f0p/vulnerabilities.json": "632514dae90172c18dc0b21b284ad8ae532c9bfb3ccd5a1aa3bfd868088ca4a7"
+  }
+}

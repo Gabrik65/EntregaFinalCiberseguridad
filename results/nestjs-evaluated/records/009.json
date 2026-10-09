@@ -1,0 +1,1051 @@
+{
+  "repository": "nestjs/docs.nestjs.com",
+  "url": "https://github.com/nestjs/docs.nestjs.com.git",
+  "commit": "e0984c784f8546f44d1fa3344a73c7fbf0d56d46",
+  "source_sha256": null,
+  "working_tree_dirty": null,
+  "source_error": null,
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742",
+  "tools": [
+    {
+      "tool": "codeql",
+      "status": "failed",
+      "version": null,
+      "duration_seconds": 0.00799554700643057,
+      "artifacts": [],
+      "error": "El usuario de Compose no puede leer /opt/icc610/.tools/codeql/qlpacks/codeql/actions-queries/0.6.28/.codeql/precompiled/aa8e4fc31dus716gb9uvvoc1720.bytes.qlx",
+      "warnings": [],
+      "data": {}
+    },
+    {
+      "tool": "syft",
+      "status": "success",
+      "version": "1.52.0",
+      "duration_seconds": 1.0017806449977797,
+      "artifacts": [
+        "raw/009/syft-7tq85ab_/sbom.cdx.json"
+      ],
+      "error": null,
+      "warnings": [
+        "2 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "component_count": 24,
+        "components": [
+          {
+            "bom-ref": "pkg:npm/%40angular/animations@22.2.1?package-id=a45a4bc57eb6cc8f",
+            "type": "library",
+            "name": "@angular/animations",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/animations:\\@angular\\/animations:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/animations@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/cdk@22.2.1?package-id=5a094e09fb88a6fe",
+            "type": "library",
+            "name": "@angular/cdk",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/cdk:\\@angular\\/cdk:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/cdk@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/common@22.2.1?package-id=c5c8b82ebee03762",
+            "type": "library",
+            "name": "@angular/common",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/common:\\@angular\\/common:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/common@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/compiler@22.2.1?package-id=f29618cdbade4b96",
+            "type": "library",
+            "name": "@angular/compiler",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/compiler:\\@angular\\/compiler:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/compiler@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/core@22.2.1?package-id=7f2af5346972f11c",
+            "type": "library",
+            "name": "@angular/core",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:angular:angular:22.2.1:*:*:*:*:node.js:*:*",
+            "purl": "pkg:npm/%40angular/core@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:angularjs:angularjs:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/forms@22.2.1?package-id=74a9b2bc410b8fe7",
+            "type": "library",
+            "name": "@angular/forms",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/forms:\\@angular\\/forms:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/forms@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/material@22.2.1?package-id=05f116f83dec72cc",
+            "type": "library",
+            "name": "@angular/material",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/material:\\@angular\\/material:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/material@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/platform-browser@22.2.1?package-id=8c5127c3c9393902",
+            "type": "library",
+            "name": "@angular/platform-browser",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/platform-browser:\\@angular\\/platform-browser:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/platform-browser@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@angular\\/platform-browser:\\@angular\\/platform_browser:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@angular\\/platform_browser:\\@angular\\/platform-browser:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@angular\\/platform_browser:\\@angular\\/platform_browser:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@angular\\/platform:\\@angular\\/platform-browser:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@angular\\/platform:\\@angular\\/platform_browser:22.2.1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40angular/router@22.2.1?package-id=7c93df50d1c02051",
+            "type": "library",
+            "name": "@angular/router",
+            "version": "22.2.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@angular\\/router:\\@angular\\/router:22.2.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40angular/router@22.2.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40standard-schema/spec@1.1.0?package-id=0f9c91c3db6d9753",
+            "type": "library",
+            "name": "@standard-schema/spec",
+            "version": "1.1.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@standard-schema\\/spec:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40standard-schema/spec@1.1.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard-schema\\/spec:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard_schema\\/spec:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard_schema\\/spec:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/checkout@v7?package-id=2f0d606c7db6b62c",
+            "type": "library",
+            "name": "actions/checkout",
+            "version": "v7",
+            "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/checkout@v7",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/lighthouse.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/setup-node@v7?package-id=ca89d4de03decc8d",
+            "type": "library",
+            "name": "actions/setup-node",
+            "version": "v7",
+            "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/setup-node@v7",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/lighthouse.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/entities@8.1.0?package-id=17f7bc7ab6a190cc",
+            "type": "library",
+            "name": "entities",
+            "version": "8.1.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "BSD-2-Clause"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:entities:entities:8.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/entities@8.1.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/jakepartusch/wait-for-netlify-action@v1.4?package-id=1712c36c12357e3c",
+            "type": "library",
+            "name": "jakepartusch/wait-for-netlify-action",
+            "version": "v1.4",
+            "cpe": "cpe:2.3:a:jakepartusch\\/wait-for-netlify-action:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*",
+            "purl": "pkg:github/jakepartusch/wait-for-netlify-action@v1.4",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait-for-netlify-action:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for_netlify_action:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for_netlify_action:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait-for-netlify:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait-for-netlify:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for_netlify:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for_netlify:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait-for:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait-for:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait_for:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait:jakepartusch\\/wait-for-netlify-action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:jakepartusch\\/wait:jakepartusch\\/wait_for_netlify_action:v1.4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/lighthouse.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/nestjs-docs@1.0.0?package-id=ba65fa1e3e3a23e3",
+            "type": "library",
+            "name": "nestjs-docs",
+            "version": "1.0.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:nestjs-docs:nestjs-docs:1.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/nestjs-docs@1.0.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:nestjs-docs:nestjs_docs:1.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:nestjs_docs:nestjs-docs:1.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:nestjs_docs:nestjs_docs:1.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:nestjs:nestjs-docs:1.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:nestjs:nestjs_docs:1.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/parse5@8.0.1?package-id=a87e16892bd7ffb9",
+            "type": "library",
+            "name": "parse5",
+            "version": "8.0.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:parse5:parse5:8.0.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/parse5@8.0.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/prismjs@1.30.0?package-id=16cca2248797984a",
+            "type": "library",
+            "name": "prismjs",
+            "version": "1.30.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:prismjs:prism:1.30.0:*:*:*:*:node.js:*:*",
+            "purl": "pkg:npm/prismjs@1.30.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/rxjs@7.8.2?package-id=d005468fdaf8cece",
+            "type": "library",
+            "name": "rxjs",
+            "version": "7.8.2",
+            "licenses": [
+              {
+                "license": {
+                  "id": "Apache-2.0"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:rxjs:rxjs:7.8.2:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/rxjs@7.8.2",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/treosh/lighthouse-ci-action@v12?package-id=df7d6746b662d873",
+            "type": "library",
+            "name": "treosh/lighthouse-ci-action",
+            "version": "v12",
+            "cpe": "cpe:2.3:a:treosh\\/lighthouse-ci-action:treosh\\/lighthouse-ci-action:v12:*:*:*:*:*:*:*",
+            "purl": "pkg:github/treosh/lighthouse-ci-action@v12",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse-ci-action:treosh\\/lighthouse_ci_action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse_ci_action:treosh\\/lighthouse-ci-action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse_ci_action:treosh\\/lighthouse_ci_action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse-ci:treosh\\/lighthouse-ci-action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse-ci:treosh\\/lighthouse_ci_action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse_ci:treosh\\/lighthouse-ci-action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse_ci:treosh\\/lighthouse_ci_action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse:treosh\\/lighthouse-ci-action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:treosh\\/lighthouse:treosh\\/lighthouse_ci_action:v12:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/lighthouse.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/tslib@2.8.1?package-id=732c6f5be784c8f2",
+            "type": "library",
+            "name": "tslib",
+            "version": "2.8.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "0BSD"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:tslib:tslib:2.8.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/tslib@2.8.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/zod@4.6.5?package-id=99e3cecf165cf2b5",
+            "type": "library",
+            "name": "zod",
+            "version": "4.6.5",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:zod:zod:4.6.5:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/zod@4.6.5",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/zone.js@0.16.3?package-id=9b84403bab2cc0db",
+            "type": "library",
+            "name": "zone.js",
+            "version": "0.16.3",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:zone.js:zone.js:0.16.3:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/zone.js@0.16.3",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "c1e1e966cb6ffcc2",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-009-iv2o_ams/source/.github/workflows/lighthouse.yml",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "4818f88f86b2b88ad86893b945e5f873563d75c6"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "77618bd72eb2cd62e70a868e37f887f0098285b34c1b8b758fa7340960f04aa5"
+              }
+            ]
+          },
+          {
+            "bom-ref": "fd71c2238fc07657",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-009-iv2o_ams/source/package-lock.json",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "02ec3a1f4c9e45d2447a878072befd5088f31845"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "a2ffec9c0e9455cb22bb333aac55edfd052c5cd3df7de48e7148450e1d925178"
+              }
+            ]
+          }
+        ],
+        "missing_versions": 2,
+        "sbom_sha256": "fded4acd995f2b7c2334cda3474f860f3566a55b64221e3f91443f0758c56422",
+        "exclusions": [
+          "**/.git/**",
+          "**/.venv/**",
+          "**/venv/**",
+          "**/.tools/**",
+          "**/__pycache__/**",
+          "**/runs/**",
+          "**/.cache/**"
+        ]
+      }
+    },
+    {
+      "tool": "grype",
+      "status": "success_empty",
+      "version": "0.119.0",
+      "duration_seconds": 2.098938900999201,
+      "artifacts": [
+        "raw/009/grype-rku49136/vulnerabilities.json"
+      ],
+      "error": null,
+      "warnings": [
+        "2 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "findings": [],
+        "database": {
+          "schemaVersion": "v6.1.10",
+          "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+          "built": "2026-10-08T06:33:47Z",
+          "path": "/workspace/.cache/grype/6/vulnerability.db",
+          "valid": true
+        },
+        "component_count": 24,
+        "sbom_sha256": "fded4acd995f2b7c2334cda3474f860f3566a55b64221e3f91443f0758c56422"
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "raw/009/syft-7tq85ab_/sbom.cdx.json": "fded4acd995f2b7c2334cda3474f860f3566a55b64221e3f91443f0758c56422",
+    "raw/009/grype-rku49136/vulnerabilities.json": "1e47a75e67719c81a233da84cc0a959fbbe52d91c7bce865cf23fb776f759852"
+  }
+}

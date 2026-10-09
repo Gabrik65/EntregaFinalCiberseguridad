@@ -1,0 +1,745 @@
+{
+  "selection": {
+    "schema_version": 1,
+    "organization": "nestjs",
+    "requested_count": 50,
+    "repository_limit": 50,
+    "created_at": "2026-10-09T15:39:30.723214+00:00",
+    "repositories": [
+      {
+        "repository": "nestjs/nest",
+        "url": "https://github.com/nestjs/nest.git",
+        "commit": "2731c18054fb348779311d81e4e20949e313be78",
+        "updated_at": "2026-10-09T14:28:16Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/bull",
+        "url": "https://github.com/nestjs/bull.git",
+        "commit": "2ca0af43afd57984b82909281b5ce4c60babfcc8",
+        "updated_at": "2026-10-09T12:25:55Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/awesome-nestjs",
+        "url": "https://github.com/nestjs/awesome-nestjs.git",
+        "commit": "07e001c73868b65d88fb5d8b4a56450ce5d3c928",
+        "updated_at": "2026-10-09T09:37:12Z",
+        "category": "Sin lenguaje principal",
+        "languages": [],
+        "github_languages": [],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/observe",
+        "url": "https://github.com/nestjs/observe.git",
+        "commit": "028ee72aa5219ea803d7fe678e70d9a898d4ef48",
+        "updated_at": "2026-10-09T08:36:12Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/resilience",
+        "url": "https://github.com/nestjs/resilience.git",
+        "commit": "dcc33620fabe56fa258bcf7543487bc189907f01",
+        "updated_at": "2026-10-09T08:35:10Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/schematics",
+        "url": "https://github.com/nestjs/schematics.git",
+        "commit": "585c146908b259899dacb7f1157970e86bf41a03",
+        "updated_at": "2026-10-09T08:26:38Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/workflows",
+        "url": "https://github.com/nestjs/workflows.git",
+        "commit": "b61e128a28372f3149798cb898d4cfd85fb9e5bb",
+        "updated_at": "2026-10-09T08:25:39Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/nest-cli",
+        "url": "https://github.com/nestjs/nest-cli.git",
+        "commit": "31b485101859602e58d92892f0b035c30e289b75",
+        "updated_at": "2026-10-09T07:59:06Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/docs.nestjs.com",
+        "url": "https://github.com/nestjs/docs.nestjs.com.git",
+        "commit": "e0984c784f8546f44d1fa3344a73c7fbf0d56d46",
+        "updated_at": "2026-10-09T07:13:24Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/typescript-starter",
+        "url": "https://github.com/nestjs/typescript-starter.git",
+        "commit": "a122dea65cd0610ee205d7765ed46f9d73629141",
+        "updated_at": "2026-10-09T03:26:06Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/typeorm",
+        "url": "https://github.com/nestjs/typeorm.git",
+        "commit": "f1c53a9a696b3be0aa89aa0e23c196e78d21d8c7",
+        "updated_at": "2026-10-09T03:26:00Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/webhooks",
+        "url": "https://github.com/nestjs/webhooks.git",
+        "commit": "6af2255d2283458454bc4b414c7e002e92b3c2d4",
+        "updated_at": "2026-10-09T00:27:04Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/authentication",
+        "url": "https://github.com/nestjs/authentication.git",
+        "commit": "983e4f8ffbe4a535f87533943efb515c1094303c",
+        "updated_at": "2026-10-09T00:26:45Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/idempotency",
+        "url": "https://github.com/nestjs/idempotency.git",
+        "commit": "63f9322c8cec93c6e78f020ac8fb39a5a0a452d4",
+        "updated_at": "2026-10-09T00:22:16Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/outbox",
+        "url": "https://github.com/nestjs/outbox.git",
+        "commit": "02d9c8cf0bcedb97de1b2a52a2a74adc86e50aaf",
+        "updated_at": "2026-10-08T20:59:19Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/storage",
+        "url": "https://github.com/nestjs/storage.git",
+        "commit": "e75a9c55ea37c8180e77170a0b19ce129189ef40",
+        "updated_at": "2026-10-08T20:59:02Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/locks",
+        "url": "https://github.com/nestjs/locks.git",
+        "commit": "3e610cbac598915ccdae02213884492dc0e7f275",
+        "updated_at": "2026-10-08T20:52:48Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/store-kit",
+        "url": "https://github.com/nestjs/store-kit.git",
+        "commit": "8e6741d6478617d99d22ce9c36051cd86e9caf7f",
+        "updated_at": "2026-10-08T20:52:29Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/drizzle",
+        "url": "https://github.com/nestjs/drizzle.git",
+        "commit": "2e70e3f75aec61890fdafd405cb2b1c3a2fd3614",
+        "updated_at": "2026-10-08T20:50:02Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/schedule",
+        "url": "https://github.com/nestjs/schedule.git",
+        "commit": "84d9c3f516395c0df14373a74d8cba467013a655",
+        "updated_at": "2026-10-08T17:49:35Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/mail",
+        "url": "https://github.com/nestjs/mail.git",
+        "commit": "68cc52e855a8b39c1fcfba50910278510cbdcb21",
+        "updated_at": "2026-10-08T17:35:58Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/i18n",
+        "url": "https://github.com/nestjs/i18n.git",
+        "commit": "b8bf0bc1d4fd6272627d042c4cd6093fb66a8755",
+        "updated_at": "2026-10-08T17:35:09Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/cache-manager",
+        "url": "https://github.com/nestjs/cache-manager.git",
+        "commit": "c2f7387ce4ba1a603181a012b2aab78e92bc0150",
+        "updated_at": "2026-10-08T17:28:44Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/authorization",
+        "url": "https://github.com/nestjs/authorization.git",
+        "commit": "7ddb32f5ee10cf1308cdb4f5297268c86f625fc9",
+        "updated_at": "2026-10-08T17:28:43Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/http-client",
+        "url": "https://github.com/nestjs/http-client.git",
+        "commit": "959c6dab8af11844cbf0faf4bba57896b5d521b9",
+        "updated_at": "2026-10-08T09:17:25Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/swagger",
+        "url": "https://github.com/nestjs/swagger.git",
+        "commit": "a799c9fa9b2d2d0331e569085721d61bb5aebd4d",
+        "updated_at": "2026-10-08T09:14:08Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/nestjs.com",
+        "url": "https://github.com/nestjs/nestjs.com.git",
+        "commit": "e9765d579d92fa9a6caf12ead1c79a302f92bf70",
+        "updated_at": "2026-10-08T07:14:50Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/enterprise.nestjs.com",
+        "url": "https://github.com/nestjs/enterprise.nestjs.com.git",
+        "commit": "5ba1a2fb5d266f63a617c6d809e187ef714e184e",
+        "updated_at": "2026-10-08T07:14:43Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/courses.nestjs.com",
+        "url": "https://github.com/nestjs/courses.nestjs.com.git",
+        "commit": "6e7dfc3200d73f8c322cc30064d9c4f4ebf376a8",
+        "updated_at": "2026-10-08T07:14:38Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/graphql",
+        "url": "https://github.com/nestjs/graphql.git",
+        "commit": "22f8a375af48a304664112ce049ecd63fcbc26b8",
+        "updated_at": "2026-10-08T01:01:43Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/jwt",
+        "url": "https://github.com/nestjs/jwt.git",
+        "commit": "41d4f9082a7a16859b3eb9f4d7b719947cb8afa6",
+        "updated_at": "2026-10-07T10:57:11Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/cqrs",
+        "url": "https://github.com/nestjs/cqrs.git",
+        "commit": "55fb4a0f8d3dbc5c0f593916576173ab10d1dc2f",
+        "updated_at": "2026-10-06T16:02:11Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/event-emitter",
+        "url": "https://github.com/nestjs/event-emitter.git",
+        "commit": "2eb15a748914f039b3e532be5ae6b53a686e03b6",
+        "updated_at": "2026-10-06T13:18:23Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/config",
+        "url": "https://github.com/nestjs/config.git",
+        "commit": "6681d47e2cdf3c22887b8c731eb1814aac937088",
+        "updated_at": "2026-10-06T13:17:30Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/mongoose",
+        "url": "https://github.com/nestjs/mongoose.git",
+        "commit": "4eb727c13c5778476bb2456b063912beba36da2c",
+        "updated_at": "2026-10-05T14:32:21Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/javascript-starter",
+        "url": "https://github.com/nestjs/javascript-starter.git",
+        "commit": "9ab99dbb9563048ac668f58a7671b11efad81114",
+        "updated_at": "2026-10-03T16:03:22Z",
+        "category": "JavaScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "JavaScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/axios",
+        "url": "https://github.com/nestjs/axios.git",
+        "commit": "fede9b65929dd09a5ae8f901756eb638afd277ef",
+        "updated_at": "2026-10-02T19:56:10Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/passport",
+        "url": "https://github.com/nestjs/passport.git",
+        "commit": "ea30aeaee06593d0eadacb936e31815db0e1de63",
+        "updated_at": "2026-09-30T23:46:52Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/marketing-ui",
+        "url": "https://github.com/nestjs/marketing-ui.git",
+        "commit": "9e5bd22c5662bb4184ae1cfb738cb3c6a3b030ed",
+        "updated_at": "2026-09-30T15:37:42Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/throttler",
+        "url": "https://github.com/nestjs/throttler.git",
+        "commit": "143e7e01e6c00906df2b068c1b92deeaba202194",
+        "updated_at": "2026-09-28T09:27:39Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/serve-static",
+        "url": "https://github.com/nestjs/serve-static.git",
+        "commit": "6d55ac10bab279a1b27f2fee3c4bae0df67dd187",
+        "updated_at": "2026-09-26T16:27:26Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/azure-storage",
+        "url": "https://github.com/nestjs/azure-storage.git",
+        "commit": "2f055c86304252c0985cfde980b16e90e70604dd",
+        "updated_at": "2026-09-26T12:41:09Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/elasticsearch",
+        "url": "https://github.com/nestjs/elasticsearch.git",
+        "commit": "969fa38ee5956ad56fa8530f9aa2a732c9e7ce69",
+        "updated_at": "2026-09-26T12:40:23Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/mapped-types",
+        "url": "https://github.com/nestjs/mapped-types.git",
+        "commit": "611b4c2f09d8d48ca7a53f9a782445bbba878374",
+        "updated_at": "2026-09-26T12:40:22Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/sequelize",
+        "url": "https://github.com/nestjs/sequelize.git",
+        "commit": "8a5de5db13f4df5201b9b1ad681b00671aef662e",
+        "updated_at": "2026-09-26T12:40:22Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/terminus",
+        "url": "https://github.com/nestjs/terminus.git",
+        "commit": "e2ccc7143d95b92b54b0d704b3d0159e8edf7b79",
+        "updated_at": "2026-09-23T06:08:58Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/azure-database",
+        "url": "https://github.com/nestjs/azure-database.git",
+        "commit": "9043c0cdb2414056f05729d3d24cd74b645377a0",
+        "updated_at": "2026-09-15T02:15:12Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/ng-universal",
+        "url": "https://github.com/nestjs/ng-universal.git",
+        "commit": "0334084783fa9ad0ea41da2bcebc99004e58fcbb",
+        "updated_at": "2026-06-17T20:40:27Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/newsletter.nestjs.com",
+        "url": "https://github.com/nestjs/newsletter.nestjs.com.git",
+        "commit": "b0ed195994af8d94fdc9e59507b7db0ec4949f2b",
+        "updated_at": "2026-04-26T07:55:03Z",
+        "category": "CSS",
+        "languages": [],
+        "github_languages": [
+          "CSS"
+        ],
+        "selection_error": null
+      },
+      {
+        "repository": "nestjs/mau-recipes",
+        "url": "https://github.com/nestjs/mau-recipes.git",
+        "commit": "ab04c8a3fe4560d686dea4a6e09e804ff67f9c63",
+        "updated_at": "2025-12-20T09:22:30Z",
+        "category": "TypeScript",
+        "languages": [
+          "javascript"
+        ],
+        "github_languages": [
+          "TypeScript"
+        ],
+        "selection_error": null
+      }
+    ],
+    "limitations": []
+  },
+  "config": {
+    "tools": {
+      "codeql": {
+        "executable": "/opt/icc610/.tools/codeql/codeql",
+        "sha256": "5e459057abea0f2401d8f3a0eb7b4026571b17b8b5bb051ee66496386282dd27"
+      },
+      "syft": {
+        "executable": "/opt/icc610/.tools/syft/syft",
+        "sha256": "15a52d0122953081d16e6695f48055216a4de293bb005948663bb739a63880f9"
+      },
+      "grype": {
+        "executable": "/opt/icc610/.tools/grype/grype",
+        "sha256": "e02ba25615668c6bae03473e3c6493b6dfffc2e4e419f65f9bd62555ac10cd0e"
+      }
+    },
+    "timeout": 900,
+    "database": {
+      "schemaVersion": "v6.1.10",
+      "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+      "built": "2026-10-08T06:33:47Z",
+      "path": "/workspace/.cache/grype/6/vulnerability.db",
+      "valid": true
+    },
+    "node_sha256": "fde6a4bf8d0562f7751d1a2d6cb9b417c4cfe107bbcb0aa3e9a24e125e348f48",
+    "scanner_code": {
+      "support/core/models.py": "8d764410929f34b33525c76fd4cda1f3ae7d45798df60bf779d45eef8287a8f9",
+      "support/core/paths.py": "ad5f14bee4f501ba54b1a4210620c0800f249b9a6e77dc19763073f6fdf5c7ff",
+      "support/core/storage.py": "cccde5a25d7dd5323dee26e45886fde1c74658d56a923752d4257a30749b5318",
+      "support/core/process.py": "a3a24dec56d452a1af977fb43ffcc983b44f6de7aab5e0f1045e1d7363ff9a37",
+      "miner/pipeline.py": "2180f94736ff51f34efd409989e7a68daa28c9c2245e634f4350a26cfdafbee5",
+      "miner/codeql.py": "a6300b9f7f78773f118ceb93fab7cc8b2fe32c6e0b437ce285c9915ab02a35e2",
+      "miner/scanners.py": "e7876e4c8e30c0b2519ae7a2bc6db5d69e795d4dfd94984b785d03ba9c3dd9aa",
+      "miner/sarif.py": "f594fb46004b259ffac53e7dd524ed3c9597333d23daff065f41ecca2e83c5e3",
+      "miner/syft.py": "76923c31214831ce9bdf3d136d4a158149d9f8c434aa024bf9d6d8be561ef10f",
+      "miner/grype.py": "42f8bb164fac7100013e05f6313026e7689c7d495c70a936dfc62b73c79a3f8a"
+    },
+    "language_policy": "github-primary-language-no-build"
+  },
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742"
+}

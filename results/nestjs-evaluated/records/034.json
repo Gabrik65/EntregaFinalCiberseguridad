@@ -1,0 +1,376 @@
+{
+  "repository": "nestjs/config",
+  "url": "https://github.com/nestjs/config.git",
+  "commit": "6681d47e2cdf3c22887b8c731eb1814aac937088",
+  "source_sha256": null,
+  "working_tree_dirty": null,
+  "source_error": null,
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742",
+  "tools": [
+    {
+      "tool": "codeql",
+      "status": "failed",
+      "version": null,
+      "duration_seconds": 0.008800864998192992,
+      "artifacts": [],
+      "error": "El usuario de Compose no puede leer /opt/icc610/.tools/codeql/qlpacks/codeql/actions-queries/0.6.28/.codeql/precompiled/aa8e4fc31dus716gb9uvvoc1720.bytes.qlx",
+      "warnings": [],
+      "data": {}
+    },
+    {
+      "tool": "syft",
+      "status": "success",
+      "version": "1.52.0",
+      "duration_seconds": 0.9863633469940396,
+      "artifacts": [
+        "raw/034/syft-9x1ff94x/sbom.cdx.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "component_count": 7,
+        "components": [
+          {
+            "bom-ref": "pkg:npm/%40nestjs/config@12.0.1?package-id=3b9b1d32ac7f0184",
+            "type": "library",
+            "name": "@nestjs/config",
+            "version": "12.0.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@nestjs\\/config:\\@nestjs\\/config:12.0.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40nestjs/config@12.0.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/%40standard-schema/spec@1.1.0?package-id=ead6561efb69da9c",
+            "type": "library",
+            "name": "@standard-schema/spec",
+            "version": "1.1.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@standard-schema\\/spec:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40standard-schema/spec@1.1.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard-schema\\/spec:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard_schema\\/spec:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard_schema\\/spec:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard:\\@standard-schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:\\@standard:\\@standard_schema\\/spec:1.1.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/dotenv@17.4.2?package-id=e7e9934ed9ba9190",
+            "type": "library",
+            "name": "dotenv",
+            "version": "17.4.2",
+            "licenses": [
+              {
+                "license": {
+                  "id": "BSD-2-Clause"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:dotenv:dotenv:17.4.2:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/dotenv@17.4.2",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/dotenv@18.0.3?package-id=a9bc96282a685cad",
+            "type": "library",
+            "name": "dotenv",
+            "version": "18.0.3",
+            "licenses": [
+              {
+                "license": {
+                  "id": "BSD-2-Clause"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:dotenv:dotenv:18.0.3:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/dotenv@18.0.3",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/dotenv-expand@13.0.0?package-id=2c7456bb9c14a1de",
+            "type": "library",
+            "name": "dotenv-expand",
+            "version": "13.0.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "BSD-2-Clause"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:dotenv-expand:dotenv-expand:13.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/dotenv-expand@13.0.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:dotenv-expand:dotenv_expand:13.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:dotenv_expand:dotenv-expand:13.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:dotenv_expand:dotenv_expand:13.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:dotenv:dotenv-expand:13.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:dotenv:dotenv_expand:13.0.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:npm/es-toolkit@1.52.0?package-id=158a5ff419b7ae8b",
+            "type": "library",
+            "name": "es-toolkit",
+            "version": "1.52.0",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:es-toolkit:es-toolkit:1.52.0:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/es-toolkit@1.52.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:es-toolkit:es_toolkit:1.52.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:es_toolkit:es-toolkit:1.52.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:es_toolkit:es_toolkit:1.52.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:es:es-toolkit:1.52.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:es:es_toolkit:1.52.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "fd71c2238fc07657",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-034-mwp5xki8/source/package-lock.json",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "4ea668ebc409237d91bfef6749584a674a31b7da"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "34b29d87d5c136152e69307bda3620e05099c035347358c852ff12fcffef5e57"
+              }
+            ]
+          }
+        ],
+        "missing_versions": 1,
+        "sbom_sha256": "3a07555195a779a450be4d24509f8d2b859ebf6e1efcba7c2baa1beabe2c5492",
+        "exclusions": [
+          "**/.git/**",
+          "**/.venv/**",
+          "**/venv/**",
+          "**/.tools/**",
+          "**/__pycache__/**",
+          "**/runs/**",
+          "**/.cache/**"
+        ]
+      }
+    },
+    {
+      "tool": "grype",
+      "status": "success_empty",
+      "version": "0.119.0",
+      "duration_seconds": 2.238783485998283,
+      "artifacts": [
+        "raw/034/grype-s5llgoh1/vulnerabilities.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "findings": [],
+        "database": {
+          "schemaVersion": "v6.1.10",
+          "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+          "built": "2026-10-08T06:33:47Z",
+          "path": "/workspace/.cache/grype/6/vulnerability.db",
+          "valid": true
+        },
+        "component_count": 7,
+        "sbom_sha256": "3a07555195a779a450be4d24509f8d2b859ebf6e1efcba7c2baa1beabe2c5492"
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "raw/034/syft-9x1ff94x/sbom.cdx.json": "3a07555195a779a450be4d24509f8d2b859ebf6e1efcba7c2baa1beabe2c5492",
+    "raw/034/grype-s5llgoh1/vulnerabilities.json": "de112ab4f7fcddde21ba34aac94bc7fd4927bd57a9942fba946d255d30136ef6"
+  }
+}

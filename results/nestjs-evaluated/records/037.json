@@ -1,0 +1,131 @@
+{
+  "repository": "nestjs/axios",
+  "url": "https://github.com/nestjs/axios.git",
+  "commit": "fede9b65929dd09a5ae8f901756eb638afd277ef",
+  "source_sha256": null,
+  "working_tree_dirty": null,
+  "source_error": null,
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742",
+  "tools": [
+    {
+      "tool": "codeql",
+      "status": "failed",
+      "version": null,
+      "duration_seconds": 0.010878198998398148,
+      "artifacts": [],
+      "error": "El usuario de Compose no puede leer /opt/icc610/.tools/codeql/qlpacks/codeql/actions-queries/0.6.28/.codeql/precompiled/aa8e4fc31dus716gb9uvvoc1720.bytes.qlx",
+      "warnings": [],
+      "data": {}
+    },
+    {
+      "tool": "syft",
+      "status": "success",
+      "version": "1.52.0",
+      "duration_seconds": 1.05252745100006,
+      "artifacts": [
+        "raw/037/syft-ph0hn1s9/sbom.cdx.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "component_count": 2,
+        "components": [
+          {
+            "bom-ref": "pkg:npm/%40nestjs/axios@12.0.1?package-id=430864ac65f2813a",
+            "type": "library",
+            "name": "@nestjs/axios",
+            "version": "12.0.1",
+            "licenses": [
+              {
+                "license": {
+                  "id": "MIT"
+                }
+              }
+            ],
+            "cpe": "cpe:2.3:a:\\@nestjs\\/axios:\\@nestjs\\/axios:12.0.1:*:*:*:*:*:*:*",
+            "purl": "pkg:npm/%40nestjs/axios@12.0.1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "javascript-lock-cataloger"
+              },
+              {
+                "name": "syft:package:language",
+                "value": "javascript"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "npm"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "javascript-npm-package-lock-entry"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/package-lock.json"
+              }
+            ]
+          },
+          {
+            "bom-ref": "fd71c2238fc07657",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-037-k7csq_qd/source/package-lock.json",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "8692aafef2b642dcdaef10e5ecba682a89559305"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "1d62ddb99e5ecde92537ab3dc659dc1b788dabb9914c95c7ed0eb873dc497314"
+              }
+            ]
+          }
+        ],
+        "missing_versions": 1,
+        "sbom_sha256": "92ac319d7e34730fa5582c247f93e36e99b5b68336cc416b6a720699676e4eb4",
+        "exclusions": [
+          "**/.git/**",
+          "**/.venv/**",
+          "**/venv/**",
+          "**/.tools/**",
+          "**/__pycache__/**",
+          "**/runs/**",
+          "**/.cache/**"
+        ]
+      }
+    },
+    {
+      "tool": "grype",
+      "status": "success_empty",
+      "version": "0.119.0",
+      "duration_seconds": 2.0514893520012265,
+      "artifacts": [
+        "raw/037/grype-t6ue091s/vulnerabilities.json"
+      ],
+      "error": null,
+      "warnings": [
+        "1 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "findings": [],
+        "database": {
+          "schemaVersion": "v6.1.10",
+          "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+          "built": "2026-10-08T06:33:47Z",
+          "path": "/workspace/.cache/grype/6/vulnerability.db",
+          "valid": true
+        },
+        "component_count": 2,
+        "sbom_sha256": "92ac319d7e34730fa5582c247f93e36e99b5b68336cc416b6a720699676e4eb4"
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "raw/037/syft-ph0hn1s9/sbom.cdx.json": "92ac319d7e34730fa5582c247f93e36e99b5b68336cc416b6a720699676e4eb4",
+    "raw/037/grype-t6ue091s/vulnerabilities.json": "8cd73c921442b679ad1fde93390461efe9b1cd47dfd26f6c7564805a60190898"
+  }
+}

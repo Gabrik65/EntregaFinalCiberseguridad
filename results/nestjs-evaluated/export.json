@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "contains": [
+    "evidence",
+    "records",
+    "reports"
+  ],
+  "excludes": [
+    "clones",
+    "tool binaries",
+    "CodeQL databases",
+    "credentials"
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "repository": "nestjs/awesome-nestjs",
+  "url": "https://github.com/nestjs/awesome-nestjs.git",
+  "commit": "07e001c73868b65d88fb5d8b4a56450ce5d3c928",
+  "source_sha256": null,
+  "working_tree_dirty": null,
+  "source_error": null,
+  "config_sha256": "f521eeb3ed3fcba6a5516ce4b7dc535db2c26ff822d85252b6aaddecea096742",
+  "tools": [
+    {
+      "tool": "codeql",
+      "status": "unsupported",
+      "version": null,
+      "duration_seconds": 0.0,
+      "artifacts": [],
+      "error": "No se seleccionaron lenguajes compatibles",
+      "warnings": [],
+      "data": {}
+    },
+    {
+      "tool": "syft",
+      "status": "success",
+      "version": "1.52.0",
+      "duration_seconds": 1.2174985829988145,
+      "artifacts": [
+        "raw/003/syft-i20cy2x2/sbom.cdx.json"
+      ],
+      "error": null,
+      "warnings": [
+        "4 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "component_count": 15,
+        "components": [
+          {
+            "bom-ref": "pkg:github/actions/checkout@v2?package-id=b6c76f10c3aa44e0",
+            "type": "library",
+            "name": "actions/checkout",
+            "version": "v2",
+            "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/checkout@v2",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/links_checker.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/checkout@v2?package-id=c6aecc92ae8a19fa",
+            "type": "library",
+            "name": "actions/checkout",
+            "version": "v2",
+            "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/checkout@v2",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/linter.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/checkout@v4?package-id=56b9b095b60bb011",
+            "type": "library",
+            "name": "actions/checkout",
+            "version": "v4",
+            "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/checkout@v4",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/awesome-lint.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/checkout@v4?package-id=fd582d02a5e885b8",
+            "type": "library",
+            "name": "actions/checkout",
+            "version": "v4",
+            "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/checkout@v4",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/link-check.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/setup-node@v4?package-id=d3a24f21c4af082e",
+            "type": "library",
+            "name": "actions/setup-node",
+            "version": "v4",
+            "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v4:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/setup-node@v4",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/awesome-lint.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/actions/upload-artifact@v4?package-id=45600b86675033d6",
+            "type": "library",
+            "name": "actions/upload-artifact",
+            "version": "v4",
+            "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+            "purl": "pkg:github/actions/upload-artifact@v4",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/link-check.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/lycheeverse/lychee-action@v1?package-id=843f3450165f8077",
+            "type": "library",
+            "name": "lycheeverse/lychee-action",
+            "version": "v1",
+            "cpe": "cpe:2.3:a:lycheeverse\\/lychee-action:lycheeverse\\/lychee-action:v1:*:*:*:*:*:*:*",
+            "purl": "pkg:github/lycheeverse/lychee-action@v1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee-action:lycheeverse\\/lychee_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee_action:lycheeverse\\/lychee-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee_action:lycheeverse\\/lychee_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee:lycheeverse\\/lychee-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee:lycheeverse\\/lychee_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/link-check.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/lycheeverse/lychee-action@v1.2.0?package-id=4106694ffa13b815",
+            "type": "library",
+            "name": "lycheeverse/lychee-action",
+            "version": "v1.2.0",
+            "cpe": "cpe:2.3:a:lycheeverse\\/lychee-action:lycheeverse\\/lychee-action:v1.2.0:*:*:*:*:*:*:*",
+            "purl": "pkg:github/lycheeverse/lychee-action@v1.2.0",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee-action:lycheeverse\\/lychee_action:v1.2.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee_action:lycheeverse\\/lychee-action:v1.2.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee_action:lycheeverse\\/lychee_action:v1.2.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee:lycheeverse\\/lychee-action:v1.2.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:lycheeverse\\/lychee:lycheeverse\\/lychee_action:v1.2.0:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/links_checker.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/micalevisk/last-issue-action@v1?package-id=b8a775d9ee22651d",
+            "type": "library",
+            "name": "micalevisk/last-issue-action",
+            "version": "v1",
+            "cpe": "cpe:2.3:a:micalevisk\\/last-issue-action:micalevisk\\/last-issue-action:v1:*:*:*:*:*:*:*",
+            "purl": "pkg:github/micalevisk/last-issue-action@v1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last-issue-action:micalevisk\\/last_issue_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last_issue_action:micalevisk\\/last-issue-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last_issue_action:micalevisk\\/last_issue_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last-issue:micalevisk\\/last-issue-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last-issue:micalevisk\\/last_issue_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last_issue:micalevisk\\/last-issue-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last_issue:micalevisk\\/last_issue_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last:micalevisk\\/last-issue-action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:micalevisk\\/last:micalevisk\\/last_issue_action:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/links_checker.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/peter-evans/close-issue@v1?package-id=f07e35c3147c662a",
+            "type": "library",
+            "name": "peter-evans/close-issue",
+            "version": "v1",
+            "cpe": "cpe:2.3:a:peter-evans\\/close-issue:peter-evans\\/close-issue:v1:*:*:*:*:*:*:*",
+            "purl": "pkg:github/peter-evans/close-issue@v1",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/close-issue:peter_evans\\/close_issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/close_issue:peter-evans\\/close-issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/close_issue:peter_evans\\/close_issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/close:peter-evans\\/close-issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/close:peter_evans\\/close_issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/close:peter-evans\\/close-issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/close:peter_evans\\/close_issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter:peter-evans\\/close-issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter:peter_evans\\/close_issue:v1:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/links_checker.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "pkg:github/peter-evans/create-issue-from-file@v3?package-id=3b045999b2f3852e",
+            "type": "library",
+            "name": "peter-evans/create-issue-from-file",
+            "version": "v3",
+            "cpe": "cpe:2.3:a:peter-evans\\/create-issue-from-file:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*",
+            "purl": "pkg:github/peter-evans/create-issue-from-file@v3",
+            "properties": [
+              {
+                "name": "syft:package:foundBy",
+                "value": "github-actions-usage-cataloger"
+              },
+              {
+                "name": "syft:package:type",
+                "value": "github-action"
+              },
+              {
+                "name": "syft:package:metadataType",
+                "value": "github-actions-use-statement"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create-issue-from-file:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue_from_file:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue_from_file:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create-issue-from:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create-issue-from:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue_from:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue_from:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create-issue:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create-issue:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create_issue:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter:peter-evans\\/create-issue-from-file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:cpe23",
+                "value": "cpe:2.3:a:peter:peter_evans\\/create_issue_from_file:v3:*:*:*:*:*:*:*"
+              },
+              {
+                "name": "syft:location:0:path",
+                "value": "/.github/workflows/links_checker.yml"
+              }
+            ]
+          },
+          {
+            "bom-ref": "d032b62e02f1198c",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-003-axk58vck/source/.github/workflows/awesome-lint.yml",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "84d7fa76a55a260c2df9a334566ba55a4e3b0d4f"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "8b46badc6f5f9fc7aa95394fbde31cd55f630a1c09d3767ea76d07dcc813acd2"
+              }
+            ]
+          },
+          {
+            "bom-ref": "1cf226c8245f8144",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-003-axk58vck/source/.github/workflows/link-check.yml",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "2749cb029655ade46d91da390955708362e8df04"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "bd13bcd1577aea61846f76b0676c9b2c8d2b7c75faa49fa5fb8d23f4149c2b56"
+              }
+            ]
+          },
+          {
+            "bom-ref": "66877a2df9c828fa",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-003-axk58vck/source/.github/workflows/links_checker.yml",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "e1840e3c022da1acf12e74fc1f2a20af667f5664"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "6da2fcb5cdcd3d2946ad016e364fa789ef9586d360bfa9c697f9dc7017158038"
+              }
+            ]
+          },
+          {
+            "bom-ref": "3723029c2a117320",
+            "type": "file",
+            "name": "/workspace/runs/nestjs/work/repo-003-axk58vck/source/.github/workflows/linter.yml",
+            "hashes": [
+              {
+                "alg": "SHA-1",
+                "content": "36d78583052f7cb13f8a2fd62e2227c7820ac528"
+              },
+              {
+                "alg": "SHA-256",
+                "content": "e11d3b8cf11ac10259b544eb20e4813f8e2ce4fada4125329cac95eca6c2d275"
+              }
+            ]
+          }
+        ],
+        "missing_versions": 4,
+        "sbom_sha256": "841c918947a5a2759d836e0551cfd26d5a7a221a57158ec55d87af6e1205bf0b",
+        "exclusions": [
+          "**/.git/**",
+          "**/.venv/**",
+          "**/venv/**",
+          "**/.tools/**",
+          "**/__pycache__/**",
+          "**/runs/**",
+          "**/.cache/**"
+        ]
+      }
+    },
+    {
+      "tool": "grype",
+      "status": "success",
+      "version": "0.119.0",
+      "duration_seconds": 2.1131040809996193,
+      "artifacts": [
+        "raw/003/grype-ifuwjk07/vulnerabilities.json"
+      ],
+      "error": null,
+      "warnings": [
+        "4 componentes no tienen versión identificada"
+      ],
+      "data": {
+        "findings": [
+          {
+            "vulnerability_id": "GHSA-65rg-554r-9j5x",
+            "namespace": "github:language:github-action",
+            "package_id": "pkg:github/lycheeverse/lychee-action@v1?package-id=843f3450165f8077",
+            "package_name": "lycheeverse/lychee-action",
+            "package_version": "v1",
+            "package_type": "github-action",
+            "purl": "pkg:github/lycheeverse/lychee-action@v1",
+            "severity": "Medium",
+            "fixed_versions": [
+              "2.0.2"
+            ],
+            "fix_state": "fixed",
+            "references": [
+              "https://github.com/advisories/GHSA-65rg-554r-9j5x",
+              "https://github.com/lycheeverse/lychee-action/commit/7cd0af4c74a61395d455af97419279d86aafaede",
+              "https://github.com/lycheeverse/lychee-action/security/advisories/GHSA-65rg-554r-9j5x",
+              "https://nvd.nist.gov/vuln/detail/CVE-2024-48908"
+            ],
+            "locations": [
+              "/.github/workflows/link-check.yml"
+            ]
+          },
+          {
+            "vulnerability_id": "GHSA-65rg-554r-9j5x",
+            "namespace": "github:language:github-action",
+            "package_id": "pkg:github/lycheeverse/lychee-action@v1.2.0?package-id=4106694ffa13b815",
+            "package_name": "lycheeverse/lychee-action",
+            "package_version": "v1.2.0",
+            "package_type": "github-action",
+            "purl": "pkg:github/lycheeverse/lychee-action@v1.2.0",
+            "severity": "Medium",
+            "fixed_versions": [
+              "2.0.2"
+            ],
+            "fix_state": "fixed",
+            "references": [
+              "https://github.com/advisories/GHSA-65rg-554r-9j5x",
+              "https://github.com/lycheeverse/lychee-action/commit/7cd0af4c74a61395d455af97419279d86aafaede",
+              "https://github.com/lycheeverse/lychee-action/security/advisories/GHSA-65rg-554r-9j5x",
+              "https://nvd.nist.gov/vuln/detail/CVE-2024-48908"
+            ],
+            "locations": [
+              "/.github/workflows/links_checker.yml"
+            ]
+          }
+        ],
+        "database": {
+          "schemaVersion": "v6.1.10",
+          "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-08T00:34:19Z_1791441227.tar.zst?checksum=sha256%3A3b5bd894077ef069b123399de782d5df1e513c1917255a14f2d086226350d5f4",
+          "built": "2026-10-08T06:33:47Z",
+          "path": "/workspace/.cache/grype/6/vulnerability.db",
+          "valid": true
+        },
+        "component_count": 15,
+        "sbom_sha256": "841c918947a5a2759d836e0551cfd26d5a7a221a57158ec55d87af6e1205bf0b"
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "raw/003/syft-i20cy2x2/sbom.cdx.json": "841c918947a5a2759d836e0551cfd26d5a7a221a57158ec55d87af6e1205bf0b",
+    "raw/003/grype-ifuwjk07/vulnerabilities.json": "4c5a25f6f8e9ac1e2a14d198e79c29f085f86f2be7281375fc47b0b9b5e1dd2d"
+  }
+}
