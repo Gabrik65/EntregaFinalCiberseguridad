@@ -1,0 +1,20 @@
+services:
+  analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: icc610-entregafinal:local
+    working_dir: /workspace
+    command: ["python", "main.py"]
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    init: true
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    environment:
+      - DISPLAY
+      - OPENROUTER_API_KEY
+      - OPENROUTER_MODEL
+      - GITHUB_TOKEN

@@ -1,0 +1,11 @@
+{
+  "name": "Seguridad ICC610",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "remoteUser": "ubuntu",
+  "overrideCommand": true
+}

@@ -1,0 +1,19 @@
+.git/
+.venv/
+.tools/
+.cache/
+.tmp/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+runs/
+results/
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+*.pdf:Zone.Identifier
+docs/Especificación del proyecto P1.pdf
